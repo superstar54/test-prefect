@@ -5,6 +5,7 @@ from node_graph_engine.engines.prefect import PrefectEngine
 from aiida import load_profile
 from prefect import flow
 
+load_profile()
 
 @node()
 def add(x, y):
